@@ -20,7 +20,7 @@ export default function SiteHeader() {
           <a href="/faq">FAQ</a>
         </nav>
         <div className={styles.headerContact}>
-          <a href="tel:+18445855025">+1-844-585-5025</a>
+          <a href="tel:+18889851220">+1-888-985-1220</a>
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>
         </div>
       </div>

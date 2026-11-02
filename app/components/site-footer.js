@@ -19,8 +19,8 @@ export default function SiteFooter() {
             not issue tickets or take payment through this website.
           </p>
           <p className={styles.operator}>
-            Business name provided: Bruj flight. Registered legal name and
-            public street address have not been verified.
+            Business name provided: Bruj flight. Registered legal name has
+            not been verified.
           </p>
         </div>
         <nav className={styles.footerLinks} aria-label="Explore FareClassic">
@@ -42,8 +42,9 @@ export default function SiteFooter() {
         <div className={styles.footerContact}>
           <h2>Contact</h2>
           <a href="/contact">Contact Us</a>
-          <a href="tel:+18445855025">+1-844-585-5025</a>
+          <a href="tel:+18889851220">+1-888-985-1220</a>
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>
+          <p>1340 Maryland Avenue, Tampa, Florida, 33602</p>
           <p>Monday–Friday, 9 AM–6 PM</p>
         </div>
       </div>

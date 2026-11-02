@@ -70,7 +70,7 @@ const questions = [
   {
     question: "How can I contact FareClassic?",
     answer:
-      "For questions about this website or its search information, email support@fareclassic.com or call +1-844-585-5025 during Monday–Friday, 9 AM–6 PM. The time zone has not been specified.",
+      "For questions about this website or its search information, email support@fareclassic.com or call +1-888-985-1220 during Monday–Friday, 9 AM–6 PM. The time zone has not been specified.",
   },
   {
     question: "How can I report incorrect information?",

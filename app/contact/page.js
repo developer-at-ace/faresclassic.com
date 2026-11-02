@@ -21,8 +21,9 @@ export default function ContactPage() {
           shown in flight search, contact us by phone or email.
         </p>
         <div className={styles.contactCard}>
-          <p><strong>Phone:</strong> <a href="tel:+18445855025">+1-844-585-5025</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+18889851220">+1-888-985-1220</a></p>
           <p><strong>Email:</strong> <a href="mailto:support@fareclassic.com">support@fareclassic.com</a></p>
+          <p><strong>Address:</strong> 1340 Maryland Avenue, Tampa, Florida, 33602</p>
           <p><strong>Hours:</strong> Monday–Friday, 9 AM–6 PM.</p>
           <p><strong>Website:</strong> <a href="https://fareclassic.com">https://fareclassic.com</a></p>
         </div>
@@ -55,7 +56,8 @@ export default function ContactPage() {
         <p>
           FareClassic is the public website brand. The business name provided
           to us is Bruj flight; its registered legal name has not been
-          verified. A public street address has not been provided.
+          verified. The business address provided is 1340 Maryland Avenue,
+          Tampa, Florida, 33602.
         </p>
       </section>
     </InformationPage>

@@ -52,7 +52,7 @@ export default function PrivacyPage() {
         <p>
           Email{" "}
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>{" "}
-          or call <a href="tel:+18445855025">+1-844-585-5025</a>. Please do not
+          or call <a href="tel:+18889851220">+1-888-985-1220</a>. Please do not
           send sensitive personal or payment information in general messages.
         </p>
       </section>
@@ -149,7 +149,7 @@ export default function PrivacyPage() {
         <p>
           For privacy questions, visit <a href="/contact">Contact Us</a>, email{" "}
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>,
-          or call <a href="tel:+18445855025">+1-844-585-5025</a>.
+          or call <a href="tel:+18889851220">+1-888-985-1220</a>.
         </p>
       </section>
     </InformationPage>

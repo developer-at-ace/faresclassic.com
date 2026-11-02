@@ -78,7 +78,7 @@ export default function RefundCancellationPage() {
           payment statement. For questions about FareClassic or this policy,
           email{" "}
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>{" "}
-          or call <a href="tel:+18445855025">+1-844-585-5025</a>.
+          or call <a href="tel:+18889851220">+1-888-985-1220</a>.
         </p>
       </section>
       <section>
