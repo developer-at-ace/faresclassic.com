@@ -6,8 +6,13 @@ export default function SiteFooter() {
       <div className={styles.footerInner}>
         <div className={styles.footerBrand}>
           <a className={styles.brand} href="/" aria-label="FareClassic home">
-            <span className={styles.brandMark} aria-hidden="true">✈</span>
-            <span>FareClassic</span>
+            <img
+              className={styles.brandLogo}
+              src="/logo.png"
+              alt="FareClassic"
+              width="2000"
+              height="640"
+            />
           </a>
           <p>
             Independent flight search and travel information. FareClassic does
@@ -39,7 +44,7 @@ export default function SiteFooter() {
           <a href="/contact">Contact Us</a>
           <a href="tel:+18445855025">+1-844-585-5025</a>
           <a href="mailto:support@fareclassic.com">support@fareclassic.com</a>
-          <p>Monday–Friday, 9 AM–6 PM (timezone not specified)</p>
+          <p>Monday–Friday, 9 AM–6 PM</p>
         </div>
       </div>
       <div className={styles.footerDisclosure}>

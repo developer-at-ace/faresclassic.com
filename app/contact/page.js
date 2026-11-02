@@ -23,7 +23,7 @@ export default function ContactPage() {
         <div className={styles.contactCard}>
           <p><strong>Phone:</strong> <a href="tel:+18445855025">+1-844-585-5025</a></p>
           <p><strong>Email:</strong> <a href="mailto:support@fareclassic.com">support@fareclassic.com</a></p>
-          <p><strong>Hours:</strong> Monday–Friday, 9 AM–6 PM (timezone not specified).</p>
+          <p><strong>Hours:</strong> Monday–Friday, 9 AM–6 PM.</p>
           <p><strong>Website:</strong> <a href="https://fareclassic.com">https://fareclassic.com</a></p>
         </div>
       </section>

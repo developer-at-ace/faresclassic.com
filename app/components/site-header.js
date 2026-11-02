@@ -5,15 +5,19 @@ export default function SiteHeader() {
     <header className={styles.header}>
       <div className={styles.headerInner}>
         <a className={styles.brand} href="/" aria-label="FareClassic home">
-          <span className={styles.brandMark} aria-hidden="true">✈</span>
-          <span>FareClassic</span>
+          <img
+            className={styles.brandLogo}
+            src="/logo.png"
+            alt="FareClassic"
+            width="2000"
+            height="640"
+          />
         </a>
         <nav className={styles.nav} aria-label="Main navigation">
-          <a href="/#route-search">Search flights</a>
-          <a href="/#live-search">Search offers</a>
           <a href="/about">About</a>
           <a href="/assistance">Assistance</a>
           <a href="/contact">Contact</a>
+          <a href="/faq">FAQ</a>
         </nav>
         <div className={styles.headerContact}>
           <a href="tel:+18445855025">+1-844-585-5025</a>

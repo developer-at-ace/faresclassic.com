@@ -85,10 +85,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroEyebrow}><span /> Independent flight search and travel information</div>
           <h1>Find flight options<br className={styles.desktopBreak} /> for your next trip.</h1>
-          <p className={styles.heroLead}>
-            Enter your trip details to see flight offers returned by our search provider.<br className={styles.desktopBreak} />
-            FareClassic doesn’t sell tickets or take payment.
-          </p>
+
           <FlightSearch />
           <div className={styles.trustStats}>
             <div><Icon name="globe" /><span><b>Choose your airports</b><small>Search by city or airport</small></span></div>
@@ -168,7 +165,7 @@ export default function Home() {
           <div className={styles.promiseList}>
             <article><span className={styles.promiseIcon}><Icon name="check" /></span><div><h3>Search on your terms</h3><p>Set your route, dates, traveler count, and cabin to request matching provider results.</p></div></article>
             <article><span className={styles.promiseIcon}><Icon name="shield" /></span><div><h3>Independent by design</h3><p>FareClassic is not affiliated with or endorsed by an airline.</p></div></article>
-            <article><span className={styles.promiseIcon}><Icon name="support" /></span><div><h3>Talk to our team</h3><p>Call +1-844-585-5025 or email support@fareclassic.com, Monday–Friday, 9 AM–6 PM (timezone not specified).</p></div></article>
+            <article><span className={styles.promiseIcon}><Icon name="support" /></span><div><h3>Talk to our team</h3><p>Call +1-844-585-5025 or email support@fareclassic.com, Monday–Friday, 9 AM–6 PM.</p></div></article>
           </div>
         </section>
 
@@ -192,7 +189,7 @@ export default function Home() {
               <span><Icon name="support" size={13} /> WE’RE HERE TO HELP</span>
               <h2>Have a question about FareClassic?</h2>
               <p>Get in touch about this website or its search information. For an existing ticket, changes, or refunds, contact the airline or ticket seller.</p>
-              <div className={styles.contactTrust}><span>Monday–Friday, 9 AM–6 PM</span><span>Timezone not specified</span></div>
+              <div className={styles.contactTrust}><span>Monday–Friday, 9 AM–6 PM</span><span></span></div>
             </div>
             <div className={styles.contactActions}>
               <a className={styles.contactPhone} href="tel:+18445855025"><Icon name="support" size={17} /> +1-844-585-5025</a>
