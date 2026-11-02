@@ -55,19 +55,7 @@ export default function DisclaimerPage() {
         </p>
       </section>
       <section>
-        <h2>4. No booking or ticketing services</h2>
-        <p>
-          FareClassic provides flight search and travel information. This
-          website does not sell tickets, issue boarding passes, create or manage
-          airline reservations, or process payments. Any booking or purchase
-          must be completed with the airline or ticket seller, whose terms and
-          policies apply. Contact that seller directly about an existing
-          booking, including changes, cancellations, refunds, baggage claims,
-          or payment questions.
-        </p>
-      </section>
-      <section>
-        <h2>5. External websites</h2>
+        <h2>4. External websites</h2>
         <p>
           If this website links to a third-party website, the link is provided
           for convenience or information. FareClassic does not control and is
@@ -78,7 +66,7 @@ export default function DisclaimerPage() {
         </p>
       </section>
       <section>
-        <h2>6. No professional advice</h2>
+        <h2>5. No professional advice</h2>
         <p>
           Information on FareClassic is not legal, immigration, financial,
           government, or professional travel advice. Requirements vary by
@@ -88,7 +76,7 @@ export default function DisclaimerPage() {
         </p>
       </section>
       <section>
-        <h2>7. Limitation of liability</h2>
+        <h2>6. Limitation of liability</h2>
         <p>
           To the extent permitted by applicable law, FareClassic is not
           responsible for losses arising from reliance on general information
@@ -100,7 +88,7 @@ export default function DisclaimerPage() {
         </p>
       </section>
       <section>
-        <h2>8. Changes to this disclaimer</h2>
+        <h2>7. Changes to this disclaimer</h2>
         <p>
           We may update this disclaimer as the website or our practices change.
           Any revised version will be published on this page with an updated
@@ -108,7 +96,7 @@ export default function DisclaimerPage() {
         </p>
       </section>
       <section>
-        <h2>9. Contact</h2>
+        <h2>8. Contact</h2>
         <p>
           For questions about this disclaimer or information on FareClassic,
           visit <a href="/contact">Contact Us</a> or email{" "}

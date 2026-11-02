@@ -235,7 +235,7 @@ export default function FlightSearch() {
       {searchError && <p className={styles.searchError} role="alert">{searchError}</p>}
       <div className={styles.trustNote}>
         <span aria-hidden="true">✓</span>
-        <span>Free to explore <i /> Independent information <i /> No booking pressure</span>
+        <span>Free to explore <i /> Independent information <i /></span>
       </div>
     </form>
   );
