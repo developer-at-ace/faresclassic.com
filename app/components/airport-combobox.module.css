@@ -1,0 +1,102 @@
+.field {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field label {
+  overflow: hidden;
+  color: #637287;
+  font-size: 8px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.field input {
+  width: 100%;
+  min-width: 0;
+  height: 23px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #0b1c30;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.field input::placeholder {
+  color: #93a0b0;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.options {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: 0;
+  z-index: 20;
+  width: max(100%, 260px);
+  max-width: min(360px, calc(100vw - 40px));
+  max-height: 310px;
+  margin: 0;
+  padding: 5px;
+  overflow-y: auto;
+  border: 1px solid #dfe7ef;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 16px 38px rgb(17 39 67 / 17%);
+  list-style: none;
+}
+
+.options li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.options li:hover,
+.optionActive {
+  background: #f0f7fb;
+}
+
+.optionCode {
+  min-width: 38px;
+  color: #176d79;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.optionCopy {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.optionCopy strong {
+  color: #263d4a;
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.optionCopy small {
+  color: #7a8a91;
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.noResults {
+  color: #74838a;
+  font-size: 10px;
+  line-height: 1.5;
+  cursor: default !important;
+}

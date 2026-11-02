@@ -1,0 +1,372 @@
+.searchCard {
+  position: relative;
+  width: min(940px, 100%);
+  margin: 0 auto;
+  padding: 12px 14px 0;
+  border: 1px solid #e6ebf4;
+  border-radius: 12px;
+  background: rgb(255 255 255 / 96%);
+  box-shadow: 0 12px 28px rgb(36 65 108 / 8%);
+  text-align: left;
+}
+
+.tripTabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.tripTab,
+.tripTabActive {
+  min-height: 27px;
+  padding: 0 12px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  color: #56667c;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.tripTabActive {
+  border-color: #b7d5f3;
+  background: #f5faff;
+  color: #173d63;
+  font-weight: 700;
+}
+
+.searchFields {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) 30px minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr) minmax(145px, 1.15fr);
+  align-items: end;
+  gap: 7px;
+}
+
+.searchField {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 58px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 8px;
+  border: 1px solid #dfe6f0;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.searchField > span,
+.cabinSelect > span {
+  overflow: hidden;
+  color: #637287;
+  font-size: 8px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dateField input,
+.passengerTrigger {
+  width: 100%;
+  min-width: 0;
+  height: 23px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #0b1c30;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.dateField input[type="date"] {
+  color: #30455d;
+}
+
+.fieldDisabled {
+  background: #f5f7fa;
+}
+
+.fieldDisabled input {
+  color: #a4acb5;
+  cursor: not-allowed;
+}
+
+.swapButton {
+  display: grid;
+  width: 27px;
+  height: 27px;
+  align-self: center;
+  place-items: center;
+  border: 1px solid #d8e6f7;
+  border-radius: 50%;
+  background: #f0f6ff;
+  color: #3770a0;
+  cursor: pointer;
+}
+
+.swapButton svg {
+  width: 17px;
+  height: 17px;
+}
+
+.swapButton:hover {
+  border-color: #a9cbea;
+  background: #e8f2ff;
+}
+
+.passengerTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  overflow: hidden;
+  font-size: 9px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chevron {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  transform: rotate(45deg) translateY(-2px);
+  border-right: 1.5px solid #66788a;
+  border-bottom: 1.5px solid #66788a;
+}
+
+.passengerPopover {
+  position: absolute;
+  top: calc(100% + 9px);
+  right: 0;
+  z-index: 15;
+  width: min(300px, calc(100vw - 42px));
+  padding: 8px 13px 12px;
+  border: 1px solid #e1e8ed;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 16px 38px rgb(17 39 67 / 17%);
+}
+
+.passengerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.passengerRow strong,
+.passengerRow small {
+  display: block;
+}
+
+.passengerRow strong {
+  color: #2b3c52;
+  font-size: 11px;
+}
+
+.passengerRow small {
+  margin-top: 3px;
+  color: #7a8a91;
+  font-size: 9px;
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.stepper button {
+  display: grid;
+  width: 27px;
+  height: 27px;
+  place-items: center;
+  border: 1px solid #cdd9e1;
+  border-radius: 50%;
+  background: #fff;
+  color: #176d79;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.stepper button:disabled {
+  color: #b6c0c6;
+  cursor: not-allowed;
+}
+
+.stepper > span {
+  min-width: 13px;
+  color: #2b3c52;
+  font-size: 11px;
+  text-align: center;
+}
+
+.cabinSelect {
+  display: grid;
+  gap: 6px;
+  margin: 11px 0;
+}
+
+.cabinSelect select {
+  width: 100%;
+  height: 35px;
+  padding: 0 9px;
+  border: 1px solid #e0e6ea;
+  border-radius: 5px;
+  background: #fff;
+  color: #2b3c52;
+  font-size: 10px;
+}
+
+.popoverDone {
+  width: 100%;
+  height: 32px;
+  border: 0;
+  border-radius: 5px;
+  background: #e8f1fb;
+  color: #214f70;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.searchSubmit {
+  display: flex;
+  width: 100%;
+  min-height: 39px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 9px;
+  border: 0;
+  border-radius: 6px;
+  background: #00353e;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.searchSubmit:hover {
+  transform: translateY(-1px);
+  background: #07505b;
+}
+
+.searchSubmit:disabled {
+  opacity: 0.75;
+  cursor: wait;
+}
+
+.searchDisclaimer {
+  margin: 8px 0 0;
+  color: #68798b;
+  font-size: 9px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.searchError {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border: 1px solid #f1c6c1;
+  border-radius: 5px;
+  background: #fff4f2;
+  color: #9a3327;
+  font-size: 10px;
+}
+
+.trustNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 0;
+  color: #68798b;
+  font-size: 9px;
+}
+
+.trustNote > span:first-child {
+  color: #168154;
+  font-weight: 800;
+}
+
+.trustNote i {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 5px 2px;
+  border-radius: 50%;
+  background: #82a2b1;
+}
+
+@media (max-width: 1100px) {
+  .searchFields {
+    grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr) minmax(0, 0.9fr) minmax(0, 0.9fr);
+  }
+
+  .travelerField {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .searchCard {
+    padding: 10px 10px 0;
+  }
+
+  .searchFields {
+    grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  .dateField {
+    grid-column: span 1;
+  }
+
+  .travelerField {
+    grid-column: 1 / -1;
+  }
+
+  .passengerPopover {
+    right: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .searchFields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .originField {
+    grid-column: 1;
+  }
+
+  .destinationField {
+    grid-column: 2;
+  }
+
+  .swapButton {
+    display: none;
+  }
+
+  .dateField {
+    grid-column: span 1;
+  }
+
+  .travelerField {
+    grid-column: 1 / -1;
+  }
+
+  .trustNote {
+    gap: 4px;
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,194 @@
+.section {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 29px 24px 32px;
+  background: #edf3ff;
+}
+
+.heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 7px;
+  color: #5479a0;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.heading h2 {
+  margin: 0;
+  font-size: clamp(20px, 2.1vw, 27px);
+  font-weight: 700;
+  letter-spacing: -0.75px;
+  line-height: 1.2;
+}
+
+.heading > p {
+  max-width: 375px;
+  margin: 0 0 2px;
+  color: #66758a;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.dateNote {
+  margin: 12px 0 0;
+  color: #64758a;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+  margin-top: 15px;
+}
+
+.cardLink {
+  display: block;
+  min-width: 0;
+  border-radius: 9px;
+  color: inherit;
+}
+
+.card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e1e9f5;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 3px 9px rgb(39 71 117 / 4%);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.cardLink:hover .card {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgb(2 132 199 / 10%);
+}
+
+.cardLink:focus-visible {
+  outline: 3px solid #087cba;
+  outline-offset: 3px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 128px;
+  flex: 0 0 auto;
+  background: #dce8f1;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px 14px 14px;
+}
+
+.route {
+  margin: 0;
+  color: #173c45;
+  font-size: 20px;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+}
+
+.route span {
+  color: #1380ae;
+}
+
+.cityPair {
+  margin: 3px 0 11px;
+  color: #728096;
+  font-size: 9px;
+}
+
+.offerDetails {
+  display: grid;
+  gap: 3px;
+  margin-top: auto;
+}
+
+.offerDetails strong {
+  color: #153f4a;
+  font-size: 21px;
+  letter-spacing: -0.5px;
+}
+
+.offerDetails span,
+.times,
+.stops,
+.status {
+  color: #66758a;
+  font-size: 9px;
+}
+
+.times {
+  margin: 9px 0 0;
+  color: #3e5268;
+  font-weight: 600;
+}
+
+.stops {
+  margin: 5px 0 12px;
+}
+
+.status {
+  line-height: 1.5;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  color: #2b6489;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.disclosure {
+  margin: 12px 0 0;
+  color: #64758a;
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+@media (max-width: 760px) {
+  .section {
+    padding: 25px 17px;
+  }
+
+  .heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    height: 160px;
+  }
+}
