@@ -230,7 +230,7 @@ export default function FlightSearch() {
         <span aria-hidden="true">↗</span>
       </button>
       <p className={styles.searchDisclaimer}>
-        Live search results are informational; prices and availability can change. Bookings are not made here.
+        Live search results, prices and availability can change.
       </p>
       {searchError && <p className={styles.searchError} role="alert">{searchError}</p>}
       <div className={styles.trustNote}>
