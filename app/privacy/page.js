@@ -70,13 +70,14 @@ export default function PrivacyPage() {
       <section>
         <h2>5. Cookies, analytics, and advertising</h2>
         <p>
-          The current application code does not implement analytics or
-          advertising tracking scripts. We have not confirmed whether the
-          hosting environment or external services use cookies or similar
-          technologies independently. You can manage cookies through your
-          browser settings; disabling them may affect website functionality.
-          If these practices change, this policy should be updated and any
-          legally required consent obtained.
+          FareClassic uses the Google tag with Google Ads to support advertising measurement. When you visit the
+          site, Google may use cookies or similar technologies and process
+          information such as your browser, device, and interactions with the
+          website for advertising-related purposes. Google processes this
+          information under its own privacy terms. You can manage or delete
+          cookies through your browser settings; blocking them may affect
+          related features. Where required by law, advertising technologies
+          should be used only with the necessary consent.
         </p>
       </section>
       <section>
