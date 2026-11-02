@@ -29,9 +29,9 @@
 }
 
 .tripTabActive {
-  border-color: #b7d5f3;
-  background: #f5faff;
-  color: #173d63;
+  border-color: #d4dce6;
+  background: #f7f9fc;
+  color: #34465c;
   font-weight: 700;
 }
 
@@ -99,10 +99,10 @@
   height: 27px;
   align-self: center;
   place-items: center;
-  border: 1px solid #d8e6f7;
+  border: 1px solid #dfe5ed;
   border-radius: 50%;
-  background: #f0f6ff;
-  color: #3770a0;
+  background: #edf2f7;
+  color: #36536f;
   cursor: pointer;
 }
 
@@ -112,8 +112,8 @@
 }
 
 .swapButton:hover {
-  border-color: #a9cbea;
-  background: #e8f2ff;
+  border-color: #c9ad6a;
+  background: #f8f1e3;
 }
 
 .passengerTrigger {
@@ -190,7 +190,7 @@
   border: 1px solid #cdd9e1;
   border-radius: 50%;
   background: #fff;
-  color: #176d79;
+  color: #8a651f;
   font-size: 17px;
   cursor: pointer;
 }
@@ -229,8 +229,8 @@
   height: 32px;
   border: 0;
   border-radius: 5px;
-  background: #e8f1fb;
-  color: #214f70;
+  background: #edf2f7;
+  color: #2a415b;
   font-size: 10px;
   font-weight: 700;
   cursor: pointer;
@@ -246,7 +246,7 @@
   margin-top: 9px;
   border: 0;
   border-radius: 6px;
-  background: #00353e;
+  background: #142b45;
   color: #fff;
   font-size: 11px;
   font-weight: 700;
@@ -256,7 +256,7 @@
 
 .searchSubmit:hover {
   transform: translateY(-1px);
-  background: #07505b;
+  background: #234766;
 }
 
 .searchSubmit:disabled {

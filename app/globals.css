@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
-  background: #f4f7ff;
-  color: #0b1c30;
+  background: #f6f8fb;
+  color: #17263a;
   font-family: "Plus Jakarta Sans", "Inter", Arial, Helvetica, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -49,11 +49,11 @@ a:focus-visible,
 input:focus-visible,
 select:focus-visible,
 summary:focus-visible {
-  outline: 2px solid #1684c0;
+  outline: 2px solid #bd851e;
   outline-offset: 3px;
 }
 
 ::selection {
-  background: #b1ecfc;
-  color: #001f26;
+  background: #f4e5c4;
+  color: #17263a;
 }

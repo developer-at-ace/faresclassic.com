@@ -1,11 +1,11 @@
 .site {
-  --ink: #0b1c30;
-  --muted: #64748b;
-  --primary: #00353e;
-  --primary-light: #004d5a;
-  --blue: #087cba;
-  --line: #dce5f1;
-  --page: #f4f7ff;
+  --ink: #17263a;
+  --muted: #627186;
+  --primary: #142b45;
+  --primary-light: #234766;
+  --blue: #a86b16;
+  --line: #e2e8f0;
+  --page: #f6f8fb;
   --card: #fff;
   width: 100%;
   color: var(--ink);
@@ -21,8 +21,8 @@
   justify-content: space-between;
   gap: 12px;
   padding: 5px max(24px, calc((100% - 1360px) / 2));
-  background: #003943;
-  color: #e7f6f7;
+  background: #10253d;
+  color: #f4f6f9;
   font-size: 10px;
 }
 
@@ -73,7 +73,7 @@
   flex: 0 0 auto;
   place-items: center;
   border-radius: 50%;
-  background: #e6f4f5;
+  background: #eaf0f6;
   color: var(--primary);
 }
 
@@ -85,8 +85,8 @@
   margin-left: 3px;
   padding: 3px 5px;
   border-radius: 4px;
-  background: #eaf2ff;
-  color: #49647c;
+  background: #eef2f8;
+  color: #43566d;
   font-size: 8px;
   letter-spacing: 0.06em;
   vertical-align: middle;
@@ -125,8 +125,8 @@
 .headerPhone .phoneIcon {
   width: 27px;
   height: 27px;
-  background: #dff7e9;
-  color: #047447;
+  background: #fbf0dc;
+  color: #94620f;
 }
 
 .headerPhone b,
@@ -135,7 +135,7 @@
 }
 
 .headerPhone b {
-  color: #173c36;
+  color: #334155;
   font-size: 8px;
 }
 
@@ -162,7 +162,7 @@
 
 .headerButton:hover {
   transform: translateY(-1px);
-  background: #07505b;
+  background: #234766;
 }
 
 .mobileMenu {
@@ -172,7 +172,7 @@
 .hero {
   padding: 37px 24px 23px;
   background:
-    linear-gradient(180deg, rgb(4 28 40 / 58%), rgb(4 28 40 / 72%)),
+    linear-gradient(180deg, rgb(10 25 43 / 62%), rgb(10 25 43 / 76%)),
     url("/hero-section.jpg") center 48% / cover no-repeat,
     #173b4c;
   text-align: center;
@@ -183,7 +183,7 @@
   align-items: center;
   gap: 7px;
   margin-bottom: 15px;
-  color: #eef7fb;
+  color: #f7f5ee;
   font-size: 9px;
   font-weight: 700;
 }
@@ -192,7 +192,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #70d2ec;
+  background: #f0c36e;
 }
 
 .hero h1 {
@@ -207,7 +207,7 @@
 
 .heroLead {
   margin: 13px auto 19px;
-  color: #edf4f8;
+  color: #f5f2ea;
   font-size: 12px;
   line-height: 1.65;
   text-shadow: 0 1px 3px rgb(0 0 0 / 28%);
@@ -226,7 +226,7 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  color: #b6eafb;
+  color: #f0c36e;
 }
 
 .trustStats > div > svg {
@@ -246,7 +246,7 @@
 
 .trustStats small {
   margin-top: 2px;
-  color: #e0edf3;
+  color: #e3eaf1;
   font-size: 8px;
 }
 
@@ -273,7 +273,7 @@
 .eyebrow {
   display: block;
   margin-bottom: 7px;
-  color: #5479a0;
+  color: #8a651f;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -325,8 +325,8 @@
   flex: 0 0 auto;
   place-items: center;
   border-radius: 7px;
-  background: #eaf3ff;
-  color: #0965a0;
+  background: #edf2f7;
+  color: #254766;
 }
 
 .capabilityCard h3 {
@@ -349,7 +349,7 @@
   align-items: center;
   gap: 5px;
   margin-top: auto;
-  color: #2b6489;
+  color: #9a6413;
   font-size: 9px;
   font-weight: 600;
 }
@@ -393,7 +393,7 @@
 }
 
 .processList b {
-  color: #276181;
+  color: #45566b;
 }
 
 .processList span {
@@ -434,7 +434,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #2b6489;
+  color: #9a6413;
   font-size: 9px;
   font-weight: 600;
 }
@@ -460,7 +460,7 @@
 }
 
 .aircraftStats b {
-  color: #367094;
+  color: #234766;
   font-size: 8px;
 }
 
@@ -482,7 +482,7 @@
   margin-top: 9px;
   padding: 8px 9px;
   border-radius: 5px;
-  background: #e5efff;
+  background: #edf2f7;
   color: #586e88;
   font-size: 8px;
   line-height: 1.45;
@@ -490,7 +490,7 @@
 
 .tip svg {
   flex: 0 0 auto;
-  color: #1b7caa;
+  color: #a86b16;
 }
 
 .aircraftImage {
@@ -526,7 +526,7 @@
 
 .imageCaption span {
   margin-bottom: 5px;
-  color: #bce6f4;
+  color: #efc3d0;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -589,7 +589,7 @@
   gap: 9px;
   padding: 9px 11px;
   border-radius: 6px;
-  background: #e7f0ff;
+  background: #edf2f7;
 }
 
 .calloutPhone .phoneIcon {
@@ -627,7 +627,7 @@
   padding: 11px;
   border: 1px solid #edf1f7;
   border-radius: 7px;
-  background: #f3f6fd;
+  background: #f7f9fc;
 }
 
 .promiseIcon {

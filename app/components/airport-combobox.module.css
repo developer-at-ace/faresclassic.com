@@ -64,12 +64,12 @@
 
 .options li:hover,
 .optionActive {
-  background: #f0f7fb;
+  background: #edf2f7;
 }
 
 .optionCode {
   min-width: 38px;
-  color: #176d79;
+  color: #8a651f;
   font-size: 12px;
   font-weight: 800;
 }

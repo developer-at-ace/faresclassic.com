@@ -2,7 +2,7 @@
   width: min(1360px, 100%);
   margin: 0 auto;
   padding: 29px 24px 32px;
-  background: #edf3ff;
+  background: #edf2f7;
 }
 
 .heading {
@@ -15,7 +15,7 @@
 .eyebrow {
   display: block;
   margin-bottom: 7px;
-  color: #5479a0;
+  color: #8a651f;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -76,7 +76,7 @@
 }
 
 .cardLink:focus-visible {
-  outline: 3px solid #087cba;
+  outline: 3px solid #bd851e;
   outline-offset: 3px;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .route span {
-  color: #1380ae;
+  color: #a86b16;
 }
 
 .cityPair {
@@ -154,7 +154,7 @@
   align-items: center;
   gap: 6px;
   margin-top: 8px;
-  color: #2b6489;
+  color: #9a6413;
   font-size: 9px;
   font-weight: 700;
 }

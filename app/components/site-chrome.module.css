@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 20;
-  border-bottom: 1px solid #e3eaf3;
+  border-bottom: 1px solid #e2e8f0;
   background: #fff;
   box-shadow: 0 2px 9px rgb(23 53 89 / 5%);
 }
@@ -35,8 +35,8 @@
   flex: 0 0 auto;
   place-items: center;
   border-radius: 50%;
-  background: #e6f4f5;
-  color: #00353e;
+  background: #eaf0f6;
+  color: #142b45;
 }
 
 .nav {
@@ -57,7 +57,7 @@
 
 .nav a:hover,
 .footerInner a:hover {
-  color: #087cba;
+  color: #a86b16;
 }
 
 .headerContact {
